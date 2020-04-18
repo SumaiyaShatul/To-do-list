@@ -3,10 +3,10 @@ import java.util.Date;
 import java.util.Scanner;
 public class Task extends Date
 {
-	private int id; // getter
-	private String taskName; //getter, setter maximum length of task name must be < 10
-	private boolean isDone; // getter, setter
-	private Date taskCreated, taskCompleted, deadline; // getter, setter
+	private int id; 
+	private String taskName; 
+	private boolean isDone;
+	private Date taskCreated, taskCompleted, deadline;
 	private static int autoIncrementingId = 1;
 
 	public Task(String taskName, Date deadline)
