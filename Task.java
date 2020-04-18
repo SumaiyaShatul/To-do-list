@@ -17,7 +17,7 @@ public class Task extends Date
 		isDone = false;
 		taskCreated = new Date();
 	}
-    //This is for Id
+    
     public void setId(int id)
     {
         this.id = id;
@@ -27,7 +27,7 @@ public class Task extends Date
     {
         return id;
     }
-    //This is for taskName
+    
     
     public void setTaskName(String taskName)
     {   
@@ -43,7 +43,7 @@ public class Task extends Date
         return taskName;
     }
     
-    //This is for is Done
+    
 
     public void setIsDone(boolean isDone)
     {
@@ -56,7 +56,7 @@ public class Task extends Date
         return isDone;
     }
     
-    //taskCreated
+   
 
 
     public void setTaskCreated(Date taskCreated) 
@@ -69,7 +69,7 @@ public class Task extends Date
         return taskCreated;
     }
     
-    //Task Completed
+    
 
 
     public void setTaskCompleted(Date taskCompleted) 
@@ -83,7 +83,7 @@ public class Task extends Date
         return taskCompleted;
     }
     
-    //Deadline
+   
 
 
 
